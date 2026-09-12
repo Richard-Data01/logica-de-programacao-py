@@ -7,6 +7,7 @@ Repositório dedicado aos exercícios e projetos práticos do curso de **Sistema
 ## 🌾 Enigma do Fazendeiro (Lobo, Bode e Repolho)
 
 Implementação em Python para solucionar o clássico problema de travessia de rio, garantindo que nenhum item seja devorado ao longo do trajeto.
+![Fluxograma da Resolução](Untitled%20Diagram.drawio.png)
 
 ### 🧠 Regras do Problema:
 * O Homem possui um barco com capacidade para levar apenas ele e **um** item por vez.
