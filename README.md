@@ -25,3 +25,36 @@ Basta rodar o arquivo `enigma.py` em qualquer ambiente Python (IDLE, VS Code ou 
 ```bash
 python enigma.py
 ```
+
+---
+
+## 🛡️ Quiz Interativo: Operadores Relacionais (Star Wars & The Mandalorian)
+
+Aplicação interativa desenvolvida em Python para fixação e validação prática de operadores relacionais (`==`, `!=`, `<`, `>`, `<=`, `>=`) com fluxo didático e narrativa temática inspirada no universo de Star Wars.
+
+### 🧠 Decisões de Lógica e Controle de Fluxo:
+* **Loop Didático (`while True` + `break`):** O usuário não avança ao errar; o laço força a reflexão e repete a pergunta até que a resposta correta seja inserida.
+* **Sanitização de Inputs:** Tratamento da entrada com `.strip().capitalize()`, eliminando espaços acidentais e padronizando digitações em letras minúsculas (`true`/`false`).
+* **Tratamento de Comandos Inválidos:** Estrutura condicional (`if/elif/else`) preparada para capturar entradas fora do padrão e emitir alertas contextuais sem interromper a execução do programa.
+
+### 🖥️ Simulação de Execução no Terminal:
+```text
+É correto afirmar que a == a?
+Você considera True ou False? false
+Errado! Paciência e tente novamente
+
+É correto afirmar que a == a?
+Você considera True ou False? true
+Muito bem, caro padawan! A força está com você. Avançando...
+
+A expressão a != b está correta?
+Podemos considerar True ou False? 1234
+Comando inválido! Digite apenas "True" ou "False".
+'''
+### 🚀 Como Executar:
+1. Certifique-se de que tem o Python instalado no computador.
+2. Clone ou descarregue este repositório.
+3. No terminal ou linha de comandos, navegue até à pasta do projeto e execute:
+   ```bash
+   python quiz_operadores_relacionais.py
+'''
