@@ -53,12 +53,12 @@ Comando inválido! Digite apenas "True" ou "False".
 '''
 ### 🚀 Como Executar:
 1. Certifique-se de que tem o Python instalado no computador.
-2. Clone ou descarregue este repositório.
+2. Copie ou cole este código.
 3. No terminal ou linha de comandos, navegue até à pasta do projeto e execute:
    ```bash
    python quiz_operadores_relacionais.py
 '''
----
+
 
 ## 📊 Classificador de Idade (Estrutura de Seleção Encadeada)
 
