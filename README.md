@@ -59,7 +59,7 @@ Comando inválido! Digite apenas "True" ou "False".
    python quiz_operadores_relacionais.py
 ```
 
-
+```
 ## 📊 Classificador de Idade (Estrutura de Seleção Encadeada)
 
 ### 🔹 Versão 1.0 - Lógica Base
