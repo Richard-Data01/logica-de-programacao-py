@@ -58,3 +58,14 @@ Comando inválido! Digite apenas "True" ou "False".
    ```bash
    python quiz_operadores_relacionais.py
 '''
+---
+
+## 📊 Classificador de Idade (Estrutura de Seleção Encadeada)
+
+### 🔹 Versão 1.0 - Lógica Base
+Resolução do exercício proposto na aula, focando na tomada de decisão lógica (`if / elif / else`).
+![Versão Base](./Primeiro%20fluxograma%20de%20validacao%20de%20idade%20antes%20da%20blindagem.png)
+
+### 🛡️ Versão 2.0 - Diagrama Blindado (Sanitização e UX)
+Evolução defensiva do fluxo para tratar entradas imprevisíveis (como `"10.0km"` ou `"10 anos"`), extraindo apenas o número inteiro com expressões regulares (`import re`) antes de acionar as decisões do sistema.
+![Versão Blindada](./Primeiro%20fluxograma%20de%20validacao%20de%20idade%20BLINDADO.png)
