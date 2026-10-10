@@ -68,4 +68,4 @@ Resolução do exercício proposto na aula, focando na tomada de decisão lógic
 
 ### 🛡️ Versão 2.0 - Diagrama Blindado (Sanitização e UX)
 Evolução defensiva do fluxo para tratar entradas imprevisíveis (como `"10.0km"` ou `"10 anos"`), extraindo apenas o número inteiro com expressões regulares (`import re`) antes de acionar as decisões do sistema.
-![Versão Blindada](./Primeiro%20fluxograma%20de%20validacao%20de%20idade%20BLINDADO.png)
+![Versão Blindada](./Diagrama%20Blindado%20de%20validacao%20de%20idade.png)
