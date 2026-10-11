@@ -75,6 +75,14 @@ Evolução defensiva do fluxo para tratar entradas imprevisíveis (como `"10.0km
 
 Demonstração prática da evolução de um script em Python, comparando uma execução linear simples com uma abordagem focada em estabilidade, tratamento de exceções e separação de responsabilidades.
 
+### 📸 Comparativo Visual (Antes vs. Depois)
+
+#### Versão 1: Abordagem Inicial
+![Versão 1 - Abordagem Inicial](./v1_inicial.jpg)
+
+#### Versão 2: Programação Defensiva
+![Versão 2 - Programação Defensiva](./v2_defensiva.jpg)
+
 ### 📌 Ficheiros do Projeto
 * [`v1_iniciante.py`](./v1_iniciante.py): Abordagem inicial sem validação. Atende ao fluxo comum, mas interrompe a execução (`Crash / ValueError`) caso o utilizador insira tipos de dados incompatíveis.
 * [`v2_programacao_defensiva.py`](./v2_programacao_defensiva.py): Abordagem profissional e defensiva, garantindo que o programa continue a correr até receber dados válidos.
