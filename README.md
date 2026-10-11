@@ -78,10 +78,10 @@ Demonstração prática da evolução de um script em Python, comparando uma exe
 ### 📸 Comparativo Visual (Antes vs. Depois)
 
 #### Versão 1: Abordagem Inicial
-![Versão 1 - Abordagem Inicial](./v1_inicial.jpg)
+![Versão 1](./Versão-1-Inicial.png)
 
 #### Versão 2: Programação Defensiva
-![Versão 2 - Programação Defensiva](./v2_defensiva.jpg)
+![Versão 2](./Versão-2_-Abordagem-Profissional-(Com-função-e-Programação-Defensiva).png)
 
 ### 📌 Ficheiros do Projeto
 * [`v1_iniciante.py`](./v1_iniciante.py): Abordagem inicial sem validação. Atende ao fluxo comum, mas interrompe a execução (`Crash / ValueError`) caso o utilizador insira tipos de dados incompatíveis.
