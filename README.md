@@ -69,3 +69,18 @@ Resolução do exercício proposto na aula, focando na tomada de decisão lógic
 ### 🛡️ Versão 2.0 - Diagrama Blindado (Sanitização e UX)
 Evolução defensiva do fluxo para tratar entradas imprevisíveis (como `"10.0km"` ou `"10 anos"`), extraindo apenas o número inteiro com expressões regulares (`import re`) antes de acionar as decisões do sistema.
 ![Versão Blindada](./Diagrama%20Blindado%20de%20validacao%20de%20idade.png)
+---
+
+## 🛡️ Cálculo de Frete e Nota Fiscal: Abordagem Inicial vs. Programação Defensiva
+
+Demonstração prática da evolução de um script em Python, comparando uma execução linear simples com uma abordagem focada em estabilidade, tratamento de exceções e separação de responsabilidades.
+
+### 📌 Ficheiros do Projeto
+* [`v1_iniciante.py`](./v1_iniciante.py): Abordagem inicial sem validação. Atende ao fluxo comum, mas interrompe a execução (`Crash / ValueError`) caso o utilizador insira tipos de dados incompatíveis.
+* [`v2_programacao_defensiva.py`](./v2_programacao_defensiva.py): Abordagem profissional e defensiva, garantindo que o programa continue a correr até receber dados válidos.
+
+### 🛠️ Conceitos Aplicados na Versão 2
+* **Isolamento da Regra de Negócio (`def` / `return`):** A lógica de cálculo do frete foi encapsulada numa função reutilizável com retorno explícito.
+* **Tratamento de Exceções (`try / except ValueError`):** Captura de falhas de conversão de tipos antes que provoquem o encerramento do programa.
+* **Laço de Repetição (`while True`):** Garante a reentrada contínua de dados até que o utilizador forneça um valor numérico válido.
+* **Sanitização de Dados (`.strip()`, `.replace()`):** Remoção de espaços em branco nas extremidades e conversão automática de vírgulas em pontos flutuantes.
